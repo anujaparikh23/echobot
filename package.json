@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fuselabs/echobot.git"
+    "url": "git+https://github.com/anujaparikh23/echobot.git"
   },
   "keywords": [
     "botframework"
   ],
-  "author": "Fuse Labs",
+  "author": "anujaparikh23",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fuselabs/echobot/issues"
+    "url": "https://github.com/anujaparikh23/echobot/issues"
   },
-  "homepage": "https://github.com/fuselabs/echobot#readme",
+  "homepage": "https://github.com/anujaparikh23/echobot#readme",
   "dependencies": {
     "botbuilder": "^3.6.0",
     "restify": "^4.3.0"
