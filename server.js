@@ -2,10 +2,16 @@ var restify = require('restify');
 var builder = require('botbuilder');
 
 // Get secrets from server environment
-var botConnectorOptions = { 
-    appId: process.env.BOTFRAMEWORK_APPID, 
-    appPassword: process.env.BOTFRAMEWORK_APPSECRET
-};
+//var botConnectorOptions = { 
+  //  appId: process.env.BOTFRAMEWORK_APPID, 
+   // appPassword: process.env.BOTFRAMEWORK_APPSECRET
+//};
+
+var connector = new builder.ChatConnector({
+    appId: "f079f4c0-39a6-4825-81e2-0da3a7c13b53",
+    appPassword: "YSECyKR5dMeFLNUpFJzO9Ud"
+    //serviceUrl: 'https://smba.trafficmanager.net'
+});
 
 // Create bot
 var connector = new builder.ChatConnector(botConnectorOptions);
